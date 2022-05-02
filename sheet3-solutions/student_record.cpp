@@ -102,6 +102,7 @@ struct student_record{
                 cout << "-----------------------\n";
                 st[i].print_student_record();
                 flag = true;
+                break;
             }
         }
 
