@@ -7,21 +7,21 @@ struct student{
     int id;
     string name;
     string gender;
-    double quiz1,quiz2,mid_term,final,total;
+    double quiz1,quiz2,mid_term,_final,total;
 
     // initialization
     student(){
         id=0;
         name ="",gender="";
-        quiz1=0,quiz2=0,mid_term=0,final=0, 0;
+        quiz1=0,quiz2=0,mid_term=0,_final=0, 0;
     }
 
     // read student record
     void add_student_record(){
         cout<<"Enter the student id,name,gender (male or female)"
               ",score of (quiz 1, quiz 2, mid term and final)\n";
-        cin>>id>>name>>gender>>quiz1>>quiz2>>mid_term>>final;
-        total = quiz1+quiz2+mid_term+final;
+        cin>>id>>name>>gender>>quiz1>>quiz2>>mid_term>>_final;
+        total = quiz1+quiz2+mid_term+_final;
     }
 
     // print student record
@@ -29,7 +29,7 @@ struct student{
 
         cout<<"Student name: "<<name<<"\nid: "<<id<<" \ngender: "
             <<gender<<"\nquiz 1: "<<quiz1<<"\nquiz 2:  "<<quiz2
-                <<"\nmid term: "<<mid_term<<"\nfinal: "<<final<<"\ntotal score: "<<total<<"\n";
+                <<"\nmid term: "<<mid_term<<"\nfinal: "<<_final<<"\ntotal score: "<<total<<"\n";
     }
 
 
