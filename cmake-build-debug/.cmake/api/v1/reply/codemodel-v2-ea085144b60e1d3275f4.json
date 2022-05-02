@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "college_assignments",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fraction-Debug-e92e948e885f9657d1cc.json",
+					"name" : "fraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sh2task1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sh2task1-Debug-02c959971a208f002ad8.json",
+					"name" : "sh2task1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sh2task2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sh2task2-Debug-49a323118e2160fb3890.json",
+					"name" : "sh2task2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sh2task3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sh2task3-Debug-ec926c257caf6e134c3f.json",
+					"name" : "sh2task3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sh2task4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sh2task4-Debug-990f0d6e72c3ff894f1e.json",
+					"name" : "sh2task4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "student_record::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-student_record-Debug-42cf2ca13ab3c745dbb2.json",
+					"name" : "student_record",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task1-Debug-6d3d7865f50feafdfb39.json",
+					"name" : "task1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task2-Debug-2927fe9f23991a31773a.json",
+					"name" : "task2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3-Debug-89cab6be0e86fb835c59.json",
+					"name" : "task3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task4-Debug-15e5e13d5db2a71587fd.json",
+					"name" : "task4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "time::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-time-Debug-e8591717ec56d3db6ba9.json",
+					"name" : "time",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/92067d8e-6164-4bf3-a65a-1a1cdca2d73b/Courses/College/college assignments/cmake-build-debug",
+		"source" : "/mnt/92067d8e-6164-4bf3-a65a-1a1cdca2d73b/Courses/College/college assignments"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
