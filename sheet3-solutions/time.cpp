@@ -17,13 +17,6 @@ struct Time{
         char first_char, second_char; // for (:) character
         cin>>h>>first_char>>m>>second_char>>s;
 
-
-        // if the hour is greater than 24 or minute >= 60 or second >= 60, then it is invalid
-        // keep looping until the input is valid
-        while (h >= 24 || m >= 60 || s >= 60){
-            cout<<"Invalid time, try again"<<"\n";
-            cin>>h>>first_char>>m>>second_char>>s;
-        }
         hour = h;
         minute = m;
         second = s;
@@ -36,7 +29,7 @@ struct Time{
 
     // convert seconds to time
     void convert_back_to_time(int seconds){
-        hour = seconds/3600;// when divide by 3600, I get the hour
+        hour = (seconds/3600)%24;// when divide by 3600, I get the hour and take mod to remove cycles
 
         // when take the remainder of 3600 this will remove the complete cycles of hours
         // and then divide the remainder by 60 to get the minutes
@@ -48,12 +41,8 @@ struct Time{
     }
     // print time
     void print(){
-        // if the hour is greater than 24 or minute >= 60 or second >= 60, then it is invalid
-        if (hour >= 24 || minute >= 60 || second >= 60){
-            cout<<"Invalid time summation"<<"\n";
-            return;
-        }
-        cout<<hour<<":"<<minute<<":"<<second<<"\n";
+
+        cout<<setfill('0')<<setw(2)<<hour<<":"<<setfill('0')<<setw(2)<<minute<<":"<<setfill('0')<<setw(2)<<second<<"\n";
     }
 
 };
